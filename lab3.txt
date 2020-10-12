@@ -1,0 +1,38 @@
+Lab3
+git clone https://github.com/khachicha/5AS05-partie3.git
+cd
+cd Desktop/
+cd 5AS05-partie3/
+ls -lrt
+y a 3 fichiers
+le secteur le plus petit est de taille 4096 !
+ stat Microsoft 
+Les fichiers cachés: ls -a
+.git  .lightbulb
+ls -lat (plus recent → plus ancien)
+ls -lat(plus ancien → plus récent)
+pour afficher les fichiers dans le sens décroissant  ls -lS
+pour afficher les fichiers dans le sens croissant  ls -lSr
+cat answering-machine.txt 
+less answering-machine.txt 
+sudo apt install vim
+vim answering-machine.txt  ( à la fin en clique sur I “pour dire insert”) puis on écrit welcome systemes communicants)
+pour supprimer le mot on utilise dw et pour sauvegarder ZZ
+tail -20 sardar3.txt
+24. mv .lightbulb lightbulb
+25. cd sardar
+26. mv sardar3.txt lab3
+27.cd Desktop/5AS05-partie3/
+28.rm Microsoft
+29. cd Desktop/
+tar -cvf lab3arch.tar 5AS05-partie3
+30. ln -s 5AS05-partie3 sardar
+34. afficher les droits d’accès : ls -l
+Le premier symbole peut être « - », « d », soit « l ». Il indique la nature du fichier : 
+    • - : fichier classique
+    • d : répertoire
+    • l : lien symbolique
+Suivent ensuite 3 groupes de 3 symboles chacun, indiquant si le fichier (ou répertoire) est autorisé en lecture, écriture ou exécution. Les 3 groupes correspondent, dans cet ordre, aux droits du propriétaire, du groupe puis du reste des utilisateurs. Dans le paragraphe introductif, vous aurez remarqué des lettres en gras dans les termes anglais. Ce sont ces lettres qui sont utilisées pour symboliser lesdites permissions. Si la permission n'est pas accordée, la lettre en question est remplacé par « - ». Si l'on reprend les lettres données pour lecture/écriture/exécution (read/write/execute), nous obtenons : rwx. 
+36. tar jcvf 5AS05-partie3.tar.bz2 5AS05-partie3
+37. Pour lister les fichiers et répertoires sans décompresser le répertoire :
+tar jtvf 5AS05-partie3.tar.bz2
